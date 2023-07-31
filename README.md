@@ -1,13 +1,13 @@
-# Data cleaning and creation of a database: videoculb. 
+# Data cleaning and creation of a database 
 
-# 1. Project Description: 
+## 1. Project Description: 
 
 This project focuses on cleaning a dataset and creating a functional database using MySQL Workbench. The dataset comprises information from a videoclub business that ceased operations a long time ago.
 
 The primary objective of this project is to generate an operational database by extracting relevant information from the original dataset. The original database contains outdated and irrelevant data that needs to be cleaned and updated.
 
 
-# 2. Data Cleaning
+## 2. Data Cleaning
 ```
 To prepare the dataset for the creation of the database in MySQL Workbench, the following steps and decisions were made to clean and transform the data. The actions are described for each table of the old dataset:
 
@@ -60,7 +60,7 @@ Relates information between films and actors appearing in each film.
 
 
 
-# 3. Creation of the database:
+## 3. Creation of the database:
 
 A new database has been created using MySQL Workbench, establishing the relationships between the tables. The code to implement the entire database, along with some example queries, has been included.
 
@@ -69,22 +69,22 @@ Please refer to the provided code files for the complete implementation and the 
 
 
 
-# 4. Documents in this repository:
+## 4. Documents in this repository:
 
 This repository consists of the following documents and folders:
 
-## Data folder
+### Data folder
 It contains two subfolders:
 Cleaned: Contains cleaned .csv documents representing the new database tables.
 Raw: Contains raw .csv documents representing the old database tables.
 
-## Jupyter notebook folder
+### Jupyter notebook folder
 Contains a Jupyter notebook that provides detailed information about the data cleaning process.
 
-## Src folder
+### Src folder
 Contains a .sql document that includes the code to implement the new database. This document also includes the necessary data.
 
-## SQL folder
+### SQL folder
 Contains a .sql document that includes sample queries to demonstrate how the database is structured.
 
 Please refer to the respective folders and files for accessing and understanding the data, code, and queries associated with this project.
